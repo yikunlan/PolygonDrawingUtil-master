@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements OnSeekBarChangeLi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String newMessage = "新的提交";
 
         maxCornerRadius = getResources().getDimension(R.dimen.max_corner_radius);
 
